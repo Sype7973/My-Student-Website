@@ -1,0 +1,46 @@
+
+/* wild card entry for HTML body */
+* {
+    font-family: "Courier New", monospace;
+    display: block;
+  }
+/* modify background for body */
+body {
+  background-color: rgba(13, 77, 136, 0.445);
+}
+
+header,
+footer {
+  width: 75%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #8486e7;
+  position: relative;
+  right: 600px;
+}
+/* modifies text element under image with color and position */
+figure {
+  width: 225px;
+  background-color: #a40db8e8;
+  position: relative;
+  left: 400px;
+  margin: 30px;
+}
+
+/* Modify highlighted text to be bold and the positioning */
+.highlighted-text {
+  font-weight: bold;
+  position: relative;
+  
+}
+
+/* Modify contact section to have a different background color and the positioning*/
+#contact-section {
+  background-color: #e944449a;
+  width: 300px;
+  position: relative;
+  left: 400px;
+  
+}
+
